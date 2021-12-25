@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.OrangHRM.Utilities.Reporting"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.OrangHRM.TestCase.Tc_Login_DDT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="loginData"/>
+        </methods>
+      </class> <!-- com.OrangHRM.TestCase.Tc_Login_DDT_002 -->
+      <class name="com.OrangHRM.TestCase.Tc_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.OrangHRM.TestCase.Tc_LoginTest_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

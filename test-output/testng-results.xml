@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31632" started-at="2021-12-25T09:11:52Z" finished-at="2021-12-25T09:12:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31632" started-at="2021-12-25T09:11:52Z" finished-at="2021-12-25T09:12:24Z">
+      <class name="com.OrangHRM.TestCase.Tc_Login_DDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.OrangHRM.TestCase.Tc_Login_DDT_002@22a67b4]" name="setup" is-config="true" duration-ms="17730" started-at="2021-12-25T14:41:53Z" finished-at="2021-12-25T14:42:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String)[pri:0, instance:com.OrangHRM.TestCase.Tc_Login_DDT_002@22a67b4]" name="loginData" duration-ms="5635" started-at="2021-12-25T14:42:15Z" data-provider="LoginData" finished-at="2021-12-25T14:42:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rrw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String)[pri:0, instance:com.OrangHRM.TestCase.Tc_Login_DDT_002@22a67b4]" name="loginData" duration-ms="1568" started-at="2021-12-25T14:42:20Z" data-provider="LoginData" finished-at="2021-12-25T14:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jfjj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="loginData(java.lang.String, java.lang.String)[pri:0, instance:com.OrangHRM.TestCase.Tc_Login_DDT_002@22a67b4]" name="loginData" duration-ms="2211" started-at="2021-12-25T14:42:22Z" data-provider="LoginData" finished-at="2021-12-25T14:42:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jgfjj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mhgkk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- com.OrangHRM.TestCase.Tc_Login_DDT_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

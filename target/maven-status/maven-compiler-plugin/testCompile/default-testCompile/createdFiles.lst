@@ -1,0 +1,9 @@
+com\OrangHRM\TestCase\BaseClass.class
+com\OrangHRM\Utilities\XLUtils.class
+com\OrangHRM\TestCase\Tc_LoginTest_001.class
+com\OrangHRM\TestCase\Tc_Login_DDT_002.class
+com\OrangHRM\Reporting\Reporting.class
+com\OrangHRM\TestCase\Tc_LoginTest_002.class
+com\OrangHRM\PageObject\LoginPage.class
+com\OrangHRM\Utilities\ReadConfig.class
+com\OrangHRM\Utilities\Reporting.class
